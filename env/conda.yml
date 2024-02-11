@@ -1,0 +1,10 @@
+name: lyricookie
+channels:
+  - defaults
+dependencies:
+  - python=3.9.13
+  - pip=23.3.1
+  - pip:
+    - requests==2.31.0
+    - flask==3.0.2
+    - PyJWT==2.8.0
